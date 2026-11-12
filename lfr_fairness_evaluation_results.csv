@@ -1,0 +1,13 @@
+Dataset,Stage,DP_Diff,DIR,Consistency,Accuracy,Balanced_Acc,F1_Score,Pos_Rate
+Adult,"1. Original labels (full, pre-split)",0.2002,0.3622,0.8327,,,,
+Adult,2. Original labels (test split),0.2001,0.3626,0.8278,,,,
+Adult,3. Baseline LR (unmitigated),0.2006,0.2756,0.9478,0.8448,0.7676,0.6633,0.2118
+Adult,4. LFR + LR (mitigated),0.0283,0.8672,0.9598,0.8224,0.7322,0.6078,0.2038
+German,"1. Original labels (full, pre-split)",0.1494,0.7948,0.7402,,,,
+German,2. Original labels (test split),0.1494,0.7948,0.7333,,,,
+German,3. Baseline LR (unmitigated),0.1501,0.8238,0.8573,0.77,0.6675,0.849,0.8233
+German,4. LFR + LR (mitigated),0.0717,0.915,0.866,0.7833,0.6802,0.8584,0.83
+COMPAS,"1. Original labels (full, pre-split)",0.1323,0.7828,0.6181,,,,
+COMPAS,2. Original labels (test split),0.1322,0.7828,0.6582,,,,
+COMPAS,3. Baseline LR (unmitigated),0.2553,0.6521,0.985,0.661,0.6569,0.6944,0.5802
+COMPAS,4. LFR + LR (mitigated),0.0276,0.9524,0.9812,0.6616,0.6586,0.6898,0.5619
